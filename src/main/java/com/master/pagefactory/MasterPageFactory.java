@@ -25,6 +25,13 @@ public class MasterPageFactory {
 	
 	@FindBy(xpath="//*[@class='icon-lock left']")
 	private WebElement loginbtn;
+	
+	@FindBy(xpath="//*[contains(text(),'Sign out')]")
+	private WebElement signout;
+
+	public WebElement getSignout() {
+		return signout;
+	}
 
 	public WebElement getSigninbtn() {
 		return signinbtn;
