@@ -75,6 +75,11 @@ public class AutomationPracticeLogin {
 			
 		return obj;
 		}
+
+	public Object getSignout() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 		
 	}
